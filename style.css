@@ -1,0 +1,244 @@
+#container{
+    height: 100vh;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:20px ;
+    color: #fff;
+}
+.content p{
+    text-align: center;
+    font-size: 16px;   
+    font-weight: 500;
+    line-height: 1.6;    
+    color: #fff;
+}
+.content-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-btn button{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background-color: rgba(236, 13, 13, 0.797);
+    cursor: pointer;
+}
+
+
+
+/* main content start */
+
+
+
+.main-content{
+    margin-top: 50px;
+    padding: 10px 150px;
+    text-align: center;
+}
+.main-content .header h1{
+    font-size: 36px;
+    margin: 15px;
+}
+.main-content p{
+    line-height: 1.6;
+}
+.tk-div{
+    margin-top: 25px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.tk-div div{
+    padding: 10px 25px;
+    transition: all ease 0.5s;
+    background-color: #efededc5;
+    margin-bottom: 50px;
+}
+.tk-div div:hover{
+    border:1px solid red;
+    color:red;
+}
+.tk-div div h1{
+    color: rgba(146, 142, 142, 0.68);
+}
+.input-tk input{
+    border: none;
+    border-bottom: 1px solid rgba(146, 142, 142, 0.68);
+    width: 50%;
+    padding: 10px 0px;
+}
+.input-tk input::placeholder{
+    font-size: 16px;
+    color: rgba(146, 142, 142, 0.68);
+    text-align: center;
+    margin-bottom:7px;
+}
+.input-tk input:focus{
+    align-items: center;
+}
+.main-content button{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background-color: rgba(236, 13, 13, 0.797);
+    cursor: pointer;
+}
+
+.donate-card{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.card-content .title{
+    margin: 7px 0px;
+}
+.card-content .title p{
+    line-height: 1.6;
+}
+.card1{
+    padding:50px 0px 0px 25px;
+    width: 325px;
+    height: 290px;
+    border: 1px solid white;
+    text-align: left;
+}
+.card2{
+    background-color: rgba(95, 158, 160, 0.212);
+}
+.card3{
+    background-color: rgba(255, 105, 180, 0.338);
+}
+.card4{
+    background-color: lightyellow;
+}
+.card1 img{
+    height: 60px;
+}
+
+
+
+
+
+/* next section  */
+.flex-box{
+    margin-top: 50px;
+    padding: 10px 150px;
+}
+
+.flex-box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* gap: 50px; */
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.flex-box-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.flex-box-card .cont{
+    width: 50%;
+    /* padding: 22px 15px; */
+    
+}
+.flex-box-card .image{
+    width: 50%;
+    /* height: 400px; */
+}
+.flex-box-card img{
+    width: 100%;
+    border-radius: 7px;
+}
+.cont h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.cont p{
+    line-height: 1.6;
+}
+.cont button{
+    margin-top: 10px; 
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: rgba(236, 13, 13, 0.797);
+    border: none;
+    border-radius: 7px;
+
+}
+.cont button:hover{
+    cursor: pointer;
+    background-color: rgba(236, 13, 13, 0.997);
+}
+
+/* section -4  */
+.footer-sec p{
+    text-align: center;
+    
+}
+.sub-box{   
+    margin: 10px 290px;
+    padding: 40px 20px;
+    background-color:rgb(247, 247, 197);
+}
+.sub-box input{
+    padding: 7px 20px;
+}
+
+
+/* footer section */
+
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    background-color: black;
+}
+/* .foot-content{
+    
+    
+} */
+.foot-content div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.foot-content div h1{
+    margin-top: 50px;
+    font-family: "Matemasie";
+    color: rgba(236, 13, 13, 0.997);
+}
+.foot-content p{
+    line-height: 3;
+    color: rgba(255, 255, 255, 0.557);
+}

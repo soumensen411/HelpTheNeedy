@@ -1,0 +1,276 @@
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .main-content {
+        padding: 10px 50px;
+    }
+
+    .tk-div {
+        padding: 10px 40px;
+        gap: 15px;
+    }
+
+    .donate-card {
+        gap: 30px;
+    }
+
+    .card1 {
+        width: 280px;
+        padding: 18px 0px 0px 25px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding: 10px 20px;
+    }
+
+    .tk-div {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .tk-div div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-tk input {
+        width: 80%;
+    }
+
+    .donate-card {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .flex-box {
+        padding: 10px 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .flex-box-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .flex-box-card .cont,
+    .flex-box-card .image {
+        width: 100%;
+    }
+
+    .cont h1 {
+        font-size: 28px;
+    }
+
+    .sub-box {
+        margin: 10px 20px;
+    }
+}
+
+/* 
+@media screen and (max-width: 480px) {
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .content-btn button {
+        padding: 8px 20px;
+    }
+
+    .main-content .header h1 {
+        font-size: 28px;
+    }
+
+    .tk-div {
+        padding: 10px;
+    }
+
+    .input-tk input {
+        width: 100%;
+    }
+
+    .card1 {
+        padding: 15px;
+    }
+
+    .cont h1 {
+        font-size: 24px;
+    }
+
+    .cont button {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .sub-box input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-sec p {
+        font-size: 14px;
+    }
+} */
+/* For screens less than 480px (Mobile) */
+@media screen and (max-width: 480px) {
+
+    /* Container Section */
+    #container {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    /* Content Section */
+    .content {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .content p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .content-btn button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    /* Main Content Section */
+    .main-content {
+        padding: 10px 15px;
+    }
+
+    .tk-div {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    /* Donate Card Section */
+    .donate-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* Flex Box Section */
+    .flex-box-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .flex-box-card .cont,
+    .flex-box-card .image {
+        width: 100%;
+    }
+
+    .cont h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .cont p {
+        font-size: 14px;
+    }
+
+    .cont button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .donate-card {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .card1 {
+        width: 30%;
+        height: auto;
+        padding: 20px;
+    }
+}
+/* Portrait mode (default mobile) */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    /* Adjustments for portrait mode */
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .tk-div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .donate-card {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Landscape mode */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    /* Adjustments for landscape mode */
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .tk-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .donate-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .flex-box-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .flex-box-card .cont, .flex-box-card .image {
+        width: 45%;
+    }
+}
